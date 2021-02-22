@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zxx">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Контакт</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU">
+		</script>
+		<script>
+		ymaps.ready(init);
+			function init(){
+				var myMap = new ymaps.Map("map", {
+					center: [55.76, 37.64],
+					zoom: 7
+				});
+			}
+		</script>
+	</head>
+	<body>
+		<div class="topContact">
+			<div class="container topBox">
+				<ul class="header">
+					<li><a href="index.html"><img src="img/logo.png" alt="logo"></a></li>
+					<li><a href="contact.html"><img src="img/notebook.png" alt="notebook"></a></li>
+				</ul>
+				<div class="topInfoContact">
+					<h1 class="h1TopInfoContact">Contact Us</h1>
+					<p class="text pTopInfoContact">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+		</div>
+		<div class="container boxContact">
+			<div class="conctatInfo">
+				<img class="imgContatInfo" src="img/BackGroundContact2.png" alt="contact png">
+				<div class="contactCard">
+					<h4 class="headingCardContact">ADDRESS</h4>
+					<p class="text">Id convallis placerat sit sed duis id amet volutpat quam a, pharetra.</p>
+				</div>
+				<div class="contactCard">
+					<h4 class="headingCardContact">PHONE</h4>
+					<ul class="text contactCardPhone">
+						<li class="Phone">+7-812-7313-4321</li>
+						<li class="Phone">+7-817-0000-1234</li>
+					</ul>
+				</div>
+				<div class="contactCard">
+					<h4 class="headingCardContact">ONLINE SERVICE</h4>
+					<ul class="text contactCardOnline">
+						<li class="www">www.site.com</li>
+						<li class="mail">hello.site@gmail.com</li>
+					</ul>
+				</div>
+			</div>
+			<div class="message">
+				<h4 class="headingCardContact">SEND US MESSAGE</h4>
+				<form action="#">
+					<p class="text pMessageForm">Full Name</p>
+					<input class="inputMessage" type="text" placeholder="Your Name">
+					<p class="text pMessageForm">Email</p>
+					<input class="inputMessage" type="text" placeholder="Your Email">
+					<p class="text pMessageForm">Message</p>
+					<textarea class="textareaMessage" placeholder="Your Message"></textarea>
+					<button class="but messageBut">SUBMIT</button>
+				</form>
+			</div>
+		</div>
+		<div class="container boxMap">
+			<div id="map" class="map"></div>
+		</div>
+		<div class="footer">
+			<div class="container footerBox">
+				<div class="footerBoxInfo">
+				<h1 class="heading3 h3Footer">Intersted to woek with our team?</h1>
+				<p class="text textFooter">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				</div>
+				<a href="#" class="but footerBut">Let’s Talk</a>
+			</div>
+			<hr class="footerHr">
+			<div class="container footerInfo">
+				<ol class="olFooterInfo">
+					<li class="liFooterInfo">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+					<li class="liFooterInfo">+7-812-7313-4321</li>
+					<li class="liFooterInfo">hello.site@gmail.com</li>
+				</ol>
+				<p class="text endFooterInfo">2021 All rights reserved.</p>
+			</div>
+		</div>
+	</body>
+</html>

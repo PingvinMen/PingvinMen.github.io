@@ -1,0 +1,671 @@
+*{
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+.container{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.top{
+	min-height: 768px;
+	background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+
+.text{
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.05em;
+	color: #1F3F68;
+	opacity: 0.6;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	padding-top: 42px;
+}
+
+.h1TopInfo{
+	width: 510px;
+	font-size: 64px;
+	font-weight: 300;
+	color: #1F3F6B;
+	line-height: 74px;
+	letter-spacing: 0.04em;
+}
+
+.heading3{
+	font-size: 36px;
+	text-align: center;
+	font-weight: 300;
+	line-height: 46px;
+}
+
+.headingCard{
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 0.05em;
+	color: #1F3F6B;
+	margin-bottom: 14px;
+	letter-spacing: 0.05em;
+}
+
+.pTopInfo{
+	width: 425px;
+}
+
+.cardLink{
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: 0.05em;
+	color: #5A98D0;
+	text-decoration: none;
+}
+
+.cardLink::after{
+	content: url(img/iconLinkPointer.png);
+	vertical-align: -20%;
+	margin-left: 7px;
+}
+
+.cardBox{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 64px;
+	padding-bottom: 64px;
+}
+.imgCard{
+	align-self: center;
+	margin-bottom: 51px;
+}
+
+.card{
+	display: flex;
+	flex-direction: column;
+	max-width: 360px;
+	padding: 44px 32px;
+	box-sizing: border-box;
+	box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+	border-radius: 10px;
+	background-color: #FFFFFF;
+}
+
+.topBox{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.topInfo{
+	padding-top: 115px;
+	flex-grow: 1;
+	background-image: url(img/illustration.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+.what-we-do{
+	padding-top: 64px;
+}
+
+.projectItem{
+	position: relative;
+	flex-grow: 1;
+}
+
+.projectItem-margin{
+	margin-right: 32px;
+}
+
+.textProject{
+	margin: 32px auto 64px auto;
+	color: #222222;
+	opacity: 1;
+	text-align: center;
+}
+
+.projectImg{
+	width: 100%;
+	max-width: 1140px;
+}
+
+.projectText{
+	font-size: 32px;
+	line-height: 46px;
+	text-align: right;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+	position: absolute;
+	top:64px;
+	right: 64px;
+}
+
+.projectTextMini{
+	font-size: 28px;
+	top: 32px;
+	left: 32px;
+}
+
+.projectParent{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 32px;
+}
+
+.footer{
+	width: auto;
+	background: #316099;
+	margin: 0 auto;
+}
+
+.h3Footer{
+	text-align: left;
+	width: 340px;
+	color:#FFFFFF;
+}
+
+.textFooter{
+	width: 425px;
+	margin-top: 32px;
+	color: #FFFFFF;
+}
+
+.footerBox{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 112px;
+	padding: 91px 0 0 0;
+	position: relative;
+}
+
+.footerBoxInfo{
+    flex-direction: column;
+}
+
+.but{
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+	background-color:#5A98D0;
+	box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+	padding: 15px 50px;
+	text-decoration: none;
+}
+
+.topBut{
+	border-radius: 10px;
+	margin-top:71px;
+	display: inline-block;
+}
+
+.footerBut{
+	float: right;
+
+	margin: 120px 0 auto auto;
+}
+
+.footerHr{
+	margin-top: 96px;
+	opacity: 0.4;
+	border: 1px solid #FFFFFF;
+}
+
+.footerInfo{
+	margin-top: 64px;
+}
+
+.endFooterInfo{
+	padding: 32px 0 64px 0;
+	color: #FFFFFF;
+}
+
+.olFooterInfo{
+	display: flex;
+	justify-content: space-around;
+}
+
+.liFooterInfo{
+	max-width: 315px;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+	margin-left: 20px;
+	padding-left: 20px;
+}
+
+.topContact{
+	height: 380px;
+	flex-grow: 1;
+	background-image: url(img/BackGroundContact1.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+.topInfoContact{
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.h1TopInfoContact{
+	margin-top:105px;
+	font-weight: 500;
+	font-size: 44px;
+	line-height: 74px;
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+}
+
+.pTopInfoContact{
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.boxContact{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 57px;
+}
+
+.messageBut{
+	border-radius: 10px;
+	display: inline-block;
+	height: 72px;
+	width: 100%;
+	margin: 72px 0 56px 0;
+}
+
+.conctatInfo{
+    display: flex;
+    flex-direction: column;
+    width: 301px;
+    padding: 44px 32px;
+    box-sizing: border-box;
+    margin-top: 78px;
+}
+
+.message{
+	display: flex;
+    flex-direction: column;
+    padding:  0 56px 0 56px;
+    box-sizing: border-box;
+    box-shadow: 5px 20px 50px rgb(16 112 177 / 20%);
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    width: 540px;
+}
+
+.inputMessage{
+	width: 100%;
+	height: 72px;
+	opacity: 0.4;
+	border: 1px solid #356EAD;
+	box-sizing: border-box;
+	border-radius: 10px;
+	padding-left: 36px;
+}
+
+.textareaMessage{
+	width: 100%;
+	height: 144px;
+	opacity: 0.4;
+	border: 1px solid #356EAD;
+	box-sizing: border-box;
+	border-radius: 10px;
+	resize: none;
+	padding-left: 36px;
+	padding-top: 21px;
+	padding: 21px 36px 21px 36px;
+}
+
+.headingCardContact{
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 0.05em;
+	color: #1F3F6B;
+	margin: 56px 0 16px 0;
+	letter-spacing: 0.05em;
+}
+
+.pMessageForm{
+	margin:32px 0 8px 0;
+}
+
+.contactCardPhone{
+	list-style-type:none;
+}
+
+.Phone{
+	background: url(img/iconPhone.png) 0 50% no-repeat;
+	padding-left: 40px;
+	line-height: 24px;
+}
+
+.contactCardOnline{
+	list-style-type:none;
+}
+
+.www{
+	background: url(img/iconLink.png) 0 50% no-repeat;
+	padding-left: 40px;
+	line-height: 24px;
+}
+
+.mail{
+	background: url(img/iconMail.png) 0 50% no-repeat;
+	padding-left: 40px;
+	line-height: 24px;
+}
+
+.boxMap{
+	margin-top: 96px;
+}
+
+.map{
+	width: 940px;
+	height: 480px;
+	margin: 0 auto;
+}
+
+@media(max-width: 1024px){
+
+	/*Главная*/
+
+	.container {
+		padding-left: 32px;
+		padding-right: 32px;
+	}
+
+	.topInfo{
+		background-size: 45%;
+		background-position: right 280px;
+	}
+
+	.topBut{
+		margin-bottom: 80px;
+	}
+
+	.card{
+		margin: 32px auto;
+	}
+
+	.cardBox{
+		flex-direction: column;
+	}
+
+	.projectTextMini{
+		top: 19px;
+		left: 19px;
+	}
+
+	.olFooterInfo{
+		display:flex;
+		flex-direction: column;
+	}
+
+	.liFooterInfo{
+		min-width: 455px;
+		padding-left: 37px;
+	}
+
+	.textFooter{
+		max-width: 336px;
+	}
+
+	.footerBox{
+		margin: 92px;
+		max-width: 768px;
+	}
+
+	.footerInfo{
+		margin-left: 124px;
+	}
+
+	.topBox{
+		max-width: 1024px;
+	}
+
+	/*Контакты*/
+
+	.h1TopInfoContact {
+    	margin-top: 80px;
+	}
+
+	.pTopInfoContact{
+		max-width: 520px;
+		margin-top: 16px;
+	}
+
+	.boxContact{
+		flex-direction: column;
+	}
+
+	.conctatInfo{
+		margin: 0 auto;
+	}
+
+	.message{
+		margin: 0 auto;
+	    padding:  0 53px 0 53px;
+	    width: 520px;
+	}
+
+
+	.boxMap{
+		padding-left: 0px;
+		padding-right: 0px;
+
+	}
+
+	.map{
+		width: 100%;
+		height: 392px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media(max-width: 667px){
+
+	/*Главная*/
+	.top{
+		min-height: 376px;
+	}
+
+	.container {
+		padding-left: 16px;
+		padding-right: 16px;
+		max-width: 667px;
+	}
+
+	.header {
+		padding-top: 24px;
+	}
+
+	.topInfo {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-image: none;
+		padding-top: 34px;
+	}
+
+	.h1TopInfo{
+		width: 100%;
+		font-size: 32px;
+		line-height: 37px;
+		margin-bottom: 12px;
+		text-align: center;
+	}
+
+	.pTopInfo{
+		width: 100%;
+		text-align: center;
+	}
+	.but{
+
+		font-size: 12px;
+		line-height: 26px;
+		padding: 0 10px;
+	}
+	.topBut{
+		margin: 32px auto 41px auto;
+	}
+
+	.heading3{
+		font-size: 24px;
+		font-weight: 300;
+		line-height: 28px;
+	}
+
+	.what-we-do{
+		padding-left: 1px;
+		padding-right: 1px;
+	}
+
+	.projectText{
+		font-size: 16px;
+		line-height: 19px;
+		top:16px;
+		right: 16px;
+	}
+
+	.projectParent{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 32px;
+		flex-direction: column;
+	}
+
+	.projectParent{
+		margin-top: 16px;
+	}
+
+	.projectItem-margin{
+		margin-right: auto;
+		margin-bottom: 16px;
+	}
+
+	.projectTextMini{
+		font-size: 16px;
+		line-height: 19px;
+		top: 16px;
+		left: 16px;
+	}
+
+	.footerBox{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: auto;
+		max-width: auto;
+	}
+
+	.footerInfo{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 32px 0 0 0;
+	}
+
+	.liFooterInfo{
+    	min-width: auto;
+    	padding-left: 20px;
+	}
+
+	.footerBoxInfo{
+		min-width: auto;
+	}
+
+	.textFooter{
+		max-width:300px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+	.heading3 {
+		width:auto;
+		text-align: center;
+	}
+
+	.footerBut{
+		margin: 40px auto 0 auto;
+	}
+
+	.footerHr {
+		margin-top: 41px;
+	}
+
+		/*Контакты*/
+
+	.h1TopInfoContact{
+		font-size: 24px;
+		line-height: 28px;
+	}
+
+	.pTopInfoContact{
+		font-size: 16px;
+		line-height: 30px;
+		margin-top: 32px;
+	}
+
+	.message{
+		margin: 0 auto;
+	    padding:  0 35px 0 35px;
+	    width: 100%;
+	}
+
+	.headingCardContact{
+		font-size: 16px;
+		margin: 36px 0 11px 0;
+
+	}
+
+	.pMessageForm{
+		font-size: 14px;
+		margin:20px 0 8px 0;
+	}
+
+	.inputMessage{
+		font-size: 14px;
+	}
+
+	.textareaMessage{
+		font-size: 14px;
+	}
+
+	.messageBut{
+
+		margin: 46px 0 35px 0;
+	}
+
+	.map{
+		height: 349px;
+	}
